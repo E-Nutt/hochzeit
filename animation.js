@@ -120,7 +120,6 @@ function hide(elem) {
     trigger: ".wrapper5",
     start:"5% center",
     end:"bottom center",
-    markers:true,
     onEnter: () => closing.play(),
     onEnterBack: () => closing.play(),
     onLeaveBack: () => closing.reverse(-1),
