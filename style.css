@@ -20,7 +20,7 @@
 
     /* FONT-FAMILY*/
     --ff-cookie:'Cookie', cursive;
-    --ff-roboto : "Roboto", sans-serif;
+    --ff-garamond: 'EB Garamond', serif;
 }
 
 @media (min-width: 40.6rem) {
@@ -129,8 +129,8 @@ select, input, textarea, button{font: inherit;}
 
 /* TYPOGRAPHY */
 
-.ff-roboto{font-family: var(--ff-roboto);}
 .ff-cookie{font-family: var(--ff-cookie);}
+.ff-garamond{font-family: var(--ff-garamond);}
 
 .uppercase { text-transform: uppercase; }
 
@@ -165,7 +165,7 @@ select, input, textarea, button{font: inherit;}
 /* SPACING */
 
 .flow-ver > *:not(:first-child) {
-    margin-top: 1.25rem;
+    margin-top: 0.5rem;
 }
 .flow-hor > *:not(:first-child){
     margin-left: 1.25rem;
